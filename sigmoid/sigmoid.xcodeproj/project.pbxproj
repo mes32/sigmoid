@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		835451061D995E990050B223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835451051D995E990050B223 /* AppDelegate.swift */; };
+		835451081D995E990050B223 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 835451071D995E990050B223 /* GameScene.sks */; };
+		8354510A1D995E9A0050B223 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835451091D995E9A0050B223 /* GameScene.swift */; };
+		8354510C1D995E9A0050B223 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354510B1D995E9A0050B223 /* GameViewController.swift */; };
+		8354510F1D995E9A0050B223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8354510D1D995E9A0050B223 /* Main.storyboard */; };
+		835451111D995E9A0050B223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835451101D995E9A0050B223 /* Assets.xcassets */; };
+		835451141D995E9A0050B223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835451121D995E9A0050B223 /* LaunchScreen.storyboard */; };
+		8354511F1D995E9C0050B223 /* sigmoidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354511E1D995E9C0050B223 /* sigmoidTests.swift */; };
+		8354512A1D995E9D0050B223 /* sigmoidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835451291D995E9D0050B223 /* sigmoidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8354511B1D995E9C0050B223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835450FA1D995E960050B223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835451011D995E970050B223;
+			remoteInfo = sigmoid;
+		};
+		835451261D995E9C0050B223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835450FA1D995E960050B223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835451011D995E970050B223;
+			remoteInfo = sigmoid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		835451021D995E970050B223 /* sigmoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sigmoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		835451051D995E990050B223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		835451071D995E990050B223 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		835451091D995E9A0050B223 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8354510B1D995E9A0050B223 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8354510E1D995E9A0050B223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		835451101D995E9A0050B223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835451131D995E9A0050B223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835451151D995E9A0050B223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8354511A1D995E9C0050B223 /* sigmoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sigmoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8354511E1D995E9C0050B223 /* sigmoidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigmoidTests.swift; sourceTree = "<group>"; };
+		835451201D995E9C0050B223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835451251D995E9C0050B223 /* sigmoidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sigmoidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		835451291D995E9D0050B223 /* sigmoidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigmoidUITests.swift; sourceTree = "<group>"; };
+		8354512B1D995E9D0050B223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835450FF1D995E970050B223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835451171D995E9C0050B223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835451221D995E9C0050B223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835450F91D995E950050B223 = {
+			isa = PBXGroup;
+			children = (
+				835451041D995E990050B223 /* sigmoid */,
+				8354511D1D995E9C0050B223 /* sigmoidTests */,
+				835451281D995E9C0050B223 /* sigmoidUITests */,
+				835451031D995E970050B223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835451031D995E970050B223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835451021D995E970050B223 /* sigmoid.app */,
+				8354511A1D995E9C0050B223 /* sigmoidTests.xctest */,
+				835451251D995E9C0050B223 /* sigmoidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835451041D995E990050B223 /* sigmoid */ = {
+			isa = PBXGroup;
+			children = (
+				835451051D995E990050B223 /* AppDelegate.swift */,
+				835451071D995E990050B223 /* GameScene.sks */,
+				835451091D995E9A0050B223 /* GameScene.swift */,
+				8354510B1D995E9A0050B223 /* GameViewController.swift */,
+				8354510D1D995E9A0050B223 /* Main.storyboard */,
+				835451101D995E9A0050B223 /* Assets.xcassets */,
+				835451121D995E9A0050B223 /* LaunchScreen.storyboard */,
+				835451151D995E9A0050B223 /* Info.plist */,
+			);
+			path = sigmoid;
+			sourceTree = "<group>";
+		};
+		8354511D1D995E9C0050B223 /* sigmoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				8354511E1D995E9C0050B223 /* sigmoidTests.swift */,
+				835451201D995E9C0050B223 /* Info.plist */,
+			);
+			path = sigmoidTests;
+			sourceTree = "<group>";
+		};
+		835451281D995E9C0050B223 /* sigmoidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				835451291D995E9D0050B223 /* sigmoidUITests.swift */,
+				8354512B1D995E9D0050B223 /* Info.plist */,
+			);
+			path = sigmoidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835451011D995E970050B223 /* sigmoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8354512E1D995E9D0050B223 /* Build configuration list for PBXNativeTarget "sigmoid" */;
+			buildPhases = (
+				835450FE1D995E970050B223 /* Sources */,
+				835450FF1D995E970050B223 /* Frameworks */,
+				835451001D995E970050B223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sigmoid;
+			productName = sigmoid;
+			productReference = 835451021D995E970050B223 /* sigmoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		835451191D995E9C0050B223 /* sigmoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835451311D995E9D0050B223 /* Build configuration list for PBXNativeTarget "sigmoidTests" */;
+			buildPhases = (
+				835451161D995E9C0050B223 /* Sources */,
+				835451171D995E9C0050B223 /* Frameworks */,
+				835451181D995E9C0050B223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8354511C1D995E9C0050B223 /* PBXTargetDependency */,
+			);
+			name = sigmoidTests;
+			productName = sigmoidTests;
+			productReference = 8354511A1D995E9C0050B223 /* sigmoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		835451241D995E9C0050B223 /* sigmoidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835451341D995E9D0050B223 /* Build configuration list for PBXNativeTarget "sigmoidUITests" */;
+			buildPhases = (
+				835451211D995E9C0050B223 /* Sources */,
+				835451221D995E9C0050B223 /* Frameworks */,
+				835451231D995E9C0050B223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835451271D995E9C0050B223 /* PBXTargetDependency */,
+			);
+			name = sigmoidUITests;
+			productName = sigmoidUITests;
+			productReference = 835451251D995E9C0050B223 /* sigmoidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835450FA1D995E960050B223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michael Stockman";
+				TargetAttributes = {
+					835451011D995E970050B223 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ST2Q54DEZ2;
+					};
+					835451191D995E9C0050B223 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ST2Q54DEZ2;
+						TestTargetID = 835451011D995E970050B223;
+					};
+					835451241D995E9C0050B223 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ST2Q54DEZ2;
+						TestTargetID = 835451011D995E970050B223;
+					};
+				};
+			};
+			buildConfigurationList = 835450FD1D995E960050B223 /* Build configuration list for PBXProject "sigmoid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 835450F91D995E950050B223;
+			productRefGroup = 835451031D995E970050B223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835451011D995E970050B223 /* sigmoid */,
+				835451191D995E9C0050B223 /* sigmoidTests */,
+				835451241D995E9C0050B223 /* sigmoidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835451001D995E970050B223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835451081D995E990050B223 /* GameScene.sks in Resources */,
+				835451141D995E9A0050B223 /* LaunchScreen.storyboard in Resources */,
+				835451111D995E9A0050B223 /* Assets.xcassets in Resources */,
+				8354510F1D995E9A0050B223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835451181D995E9C0050B223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835451231D995E9C0050B223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835450FE1D995E970050B223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8354510A1D995E9A0050B223 /* GameScene.swift in Sources */,
+				8354510C1D995E9A0050B223 /* GameViewController.swift in Sources */,
+				835451061D995E990050B223 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835451161D995E9C0050B223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8354511F1D995E9C0050B223 /* sigmoidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835451211D995E9C0050B223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8354512A1D995E9D0050B223 /* sigmoidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8354511C1D995E9C0050B223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835451011D995E970050B223 /* sigmoid */;
+			targetProxy = 8354511B1D995E9C0050B223 /* PBXContainerItemProxy */;
+		};
+		835451271D995E9C0050B223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835451011D995E970050B223 /* sigmoid */;
+			targetProxy = 835451261D995E9C0050B223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8354510D1D995E9A0050B223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8354510E1D995E9A0050B223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		835451121D995E9A0050B223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835451131D995E9A0050B223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8354512C1D995E9D0050B223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8354512D1D995E9D0050B223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8354512F1D995E9D0050B223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sigmoid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mes32.sigmoid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		835451301D995E9D0050B223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sigmoid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mes32.sigmoid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		835451321D995E9D0050B223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = sigmoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mes32.sigmoidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sigmoid.app/sigmoid";
+			};
+			name = Debug;
+		};
+		835451331D995E9D0050B223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sigmoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mes32.sigmoidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sigmoid.app/sigmoid";
+			};
+			name = Release;
+		};
+		835451351D995E9D0050B223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = sigmoidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mes32.sigmoidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sigmoid;
+			};
+			name = Debug;
+		};
+		835451361D995E9D0050B223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sigmoidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mes32.sigmoidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sigmoid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835450FD1D995E960050B223 /* Build configuration list for PBXProject "sigmoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8354512C1D995E9D0050B223 /* Debug */,
+				8354512D1D995E9D0050B223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8354512E1D995E9D0050B223 /* Build configuration list for PBXNativeTarget "sigmoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8354512F1D995E9D0050B223 /* Debug */,
+				835451301D995E9D0050B223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		835451311D995E9D0050B223 /* Build configuration list for PBXNativeTarget "sigmoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835451321D995E9D0050B223 /* Debug */,
+				835451331D995E9D0050B223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		835451341D995E9D0050B223 /* Build configuration list for PBXNativeTarget "sigmoidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835451351D995E9D0050B223 /* Debug */,
+				835451361D995E9D0050B223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 835450FA1D995E960050B223 /* Project object */;
+}
